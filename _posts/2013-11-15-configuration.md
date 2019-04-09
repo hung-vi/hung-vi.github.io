@@ -11,13 +11,13 @@ In your config file change these settings
 {% highlight yaml %}
 title: dbyll
 author:  
-  name: yourname  
-  email: youremail  
-  github: asd123  
+  name: Hung Vi  
+  email: ngochung.vi90@gmail.com  
+  github: hung-vi  
   twitter: asd123  
   pinterest: asd123  
-  linkedin: asd123  
-  resume: asd123  
+  linkedin: hung-vi-572002a7  
+  resume: 
   bio: Your stylish,  minimalist theme!  
-  email_md5: md5ofemail  
+  email_md5:   
 {% endhighlight %}
