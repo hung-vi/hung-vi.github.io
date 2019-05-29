@@ -3,10 +3,10 @@ layout: post
 title: Regular expression
 categories: [java]
 tags: [java, email, validation, regex]
-fullview: true
+comments: true
 ---
 
-Gradle 5.x does NOT create `.jar`
+Common regular expression
 
 ### Email address regular expression
 

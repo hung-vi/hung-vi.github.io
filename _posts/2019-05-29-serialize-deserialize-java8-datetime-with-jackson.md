@@ -3,10 +3,10 @@ layout: post
 title: Serialize/deserialize java 8 datetime with Jackson JSON mapper
 categories: [java]
 tags: [jackson, JSON, springboot, java8, datetime, UTC, format]
-fullview: true
+comments: true
 ---
 
-Serialize/deserialize java 8 datetime with Jackson JSON mapper
+Format `java.time.OffsetDateTime` as `yyyy-MM-dd'T'HH:mm:ss'Z'` in the JSON response
 
 ### Problem
 
@@ -43,7 +43,7 @@ Example:
 There is no need to implement a custom serializer for `java.time.OffsetDateTime`.
 Just use [Jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)
 
-ApiConfiguration.java
+**ApiConfiguration.java**
 
 ```java
 @Configuration
@@ -70,7 +70,7 @@ public class ApiConfiguration implements WebMvcConfigurer {
 }
 ```
 
-build.gradle
+**build.gradle**
 
 ```gradle
 dependencies {
