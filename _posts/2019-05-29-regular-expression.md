@@ -4,6 +4,7 @@ title: Regular expression
 categories: [java]
 tags: [java, email, validation, regex]
 comments: true
+fullview: true
 ---
 
 Common regular expression
