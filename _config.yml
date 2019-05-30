@@ -16,7 +16,7 @@ defaults:
     values:
       title: hung-vi
 
-description: Stylish Jekyll Theme
+description:
 author:
   name: Hung Vi
   email: ngochung.vi90@gmail.com
@@ -24,7 +24,7 @@ author:
   twitter:
   pinterest:
   linkedin: hung-vi-572002a7
-  bio: Your stylish, minimalist theme!
+  bio: Software developer
   email_md5:
 
 rss_path: feed.xml
